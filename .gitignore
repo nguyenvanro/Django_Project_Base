@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Migrations (nếu muốn bỏ qua file migrations tự động)
+# */migrations/*
+# !*/migrations/__init__.py
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
+
+# Tests / Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env*
+!.env.example
+
+# Docker
+*.pid
+*.seed
+*.lock
+docker-compose.override.yml
+
+# Backup files
+*.bak
+*.old
+*.orig
